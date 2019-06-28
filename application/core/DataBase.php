@@ -15,7 +15,7 @@ final class DataBase implements DataBaseInt
     private function __construct()
     {
         try{
-            $this->link = new \PDO('mysql:host=127.0.0.1;dbname=mway', 'root', '');
+            $this->link = new \PDO('mysql:host=127.0.0.1;dbname=u0742966_default', 'u0742966_default', '7!RRuV0Y');
         }catch(\PDOException $exception){
             //$this->link = new mysql('127.0.0.1', 'root', '', 'mway');
         }
